@@ -17,3 +17,5 @@ export PATH
 
 # User specific aliases and functions
 . /usr/local/bin/powerline/powerline/bindings/bash/powerline.sh
+
+[[ $TERM != "screen" ]] && exec tmux
