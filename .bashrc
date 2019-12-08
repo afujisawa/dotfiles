@@ -16,3 +16,4 @@ export PATH
 # export SYSTEMD_PAGER=
 
 # User specific aliases and functions
+. /usr/local/bin/powerline/powerline/bindings/bash/powerline.sh
