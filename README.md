@@ -25,6 +25,10 @@ Instalação no Fedora
 sudo dnf install tmux -y
 ```
 
+## PowerLine T-Mux
 
+```
+sudo dnf install tmux-powerline -y
+```
 
 
