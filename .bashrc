@@ -18,6 +18,7 @@ export PATH
 # User specific aliases and functions
 . /usr/local/bin/powerline/powerline/bindings/bash/powerline.sh
 
+# Iniciar tmux
 if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
-  tmux a -t default || exec tmux new -s default && exit;
+  tmux a -t kerberos || exec tmux new -s kerberos && exit;
 fi
